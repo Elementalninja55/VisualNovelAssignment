@@ -1,0 +1,20 @@
+:: StoryTitle
+Kidnapped and In Danger
+
+
+:: StoryData
+{
+  "ifid": "7B993A88-253B-4373-9C5D-C3AC62D6CC94",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "zoom": 1
+}
+
+
+:: Start {"position":"700,400","size":"100,100"}
+You wake up on something cold and solid. Shivering, you begin to sit up, before a sharp pain sparks your spine. 
+
+
+:: Untitled Passage {"position":"900,400","size":"100,100"}
+It is then that you remember
