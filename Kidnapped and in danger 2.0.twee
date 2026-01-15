@@ -1,0 +1,90 @@
+:: StoryTitle
+Kidnapped and In Danger
+
+
+:: StoryData
+{
+  "ifid": "7B993A88-253B-4373-9C5D-C3AC62D6CC94",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "zoom": 1
+}
+
+
+:: Look around the room. {"position":"900,200","size":"100,100"}
+You look around the Room. The space is rather empty. Only straw piles and chains strewn around the room. The bandits didn't even have the decency to leave you on the straw piles; they left you on the cold stone floor. 
+
+Your search was not in vain however; through the darkness, on the other side of the room, are two doors.
+
+[[Moving towards the doors]] 
+
+
+:: Moving towards the doors {"position":"1100,400","size":"100,100"}
+The doors ahead of you look similar in shape in size: heavy wooden doors with oxidized hinges and iron bar windows just low enough that the average adult could peek through them.
+The left door has a faint flicker of light you can see through the bars. The right is completely dark. 
+
+[[Try to leave through the left door]]
+[[Try to leave through the right door]]
+[[Stay put]]
+
+
+:: Scream for help. {"position":"900,400","size":"100,100"}
+You scream as loud as you can. Your voice bounces off the walls, straining your ears. You continue to yell, shout, and scream: but no one answers your call. 
+
+Through your calls however. you hear your voice echo behind you. You turn and see two doors ahead of you, with iron bar windows.
+
+[[Moving towards the doors]] 
+
+
+:: Sit and wait {"position":"900,600","size":"100,100"}
+You sit in silence. You feel the throbbing of your head. You shiver from the cold stone flooring. Out of the corner of your eye you see strewn about straw. Absentmindedly, you move towards the straw; while uncomfy, it is slightly more warm then the stone floor. 
+
+Continuing to sit in silence. Your hear the drips of water, the scurrying of rats, and the ever so distant sound of echoing footsteps.
+
+Footsteps? You turn to the source of the sound. Behind you, you see two doors, with barred windows.
+
+[[Moving towards the doors]] 
+
+
+:: Start {"position":"700,400","size":"100,100"}
+You wake up on something cold and solid. Shivering, you begin to sit up, before a sharp pain throbs in your head. It is then that you remember what happened.
+
+You were travelling home when you were hit with a blow to the back of the head. As your conciousness faded, you felt someone catch your fainting body and cover your head with a sack. 
+Putting this and the stories you heard about the roving bandits who had moved into the abandoned castle near the village, you realize: you have been kidnapped. 
+
+[[Look around the room.]]
+[[Scream for help.]]
+[[Sit and wait]] 
+
+
+:: Stay put {"position":"1300,600","size":"100,100"}
+You decide to stay put and wait out whatever is happening here. there were distant footsteps you could hear a moment ago and you don't want to cause more trouble for yourself. 
+Eventually after some time two bandits walk in, faces covered and clothes too dark to make heads or tales of. Not that you had enough time to ayways, they both grabbed you silently and lifted you from the floor. They carry you out through the left door and through what looks like a courtyard, cut off by a makeshift wall. 
+They carry you through to the other side of the courtyard, whispering about you seeing some sort of boss. Reaching the other side, they open a door and take a few steps in, only to leave you standing in what appears to be a dining hall. Before you can say a word, they leave as soon as they came. 
+
+[[through the door on the other side of the courtyard]] 
+
+
+:: Try to leave through the left door {"position":"1300,400","size":"100,100"}
+Slowly standing, you get up and move toward the left door to try and open it. To your surprise, it opens rather easily, both unlocked and lighter than expected. Upon glancing at the door, you realize there was no lock. 
+Going through the door you see to your immediate right a makeshift wall that extends to the other side of what appears to be a courtyard. There are no gaps in the wall, but it's obvious that the courtyard would extend on the otherside as well if not for the wall. 
+Looking through the open area you see on the other side of the court a bandit with a torch to his side, slotted into a torch holder. You panic for a momement, think you've been spotted, only to realize the bandit is sleeping in a chair. A close call. 
+You look to the other side of the court and see another open door.
+
+[[through the door on the other side of the courtyard]]
+
+
+:: Try to leave through the right door {"position":"1300,200","size":"100,100"}
+Slowly standing, you move towards the right door and try to open it. To your surprise it's unlocked. in fact there was no key hole in the door to begin with. 
+Moving outside you see to you immediate left what appears to be a makeshift wall made of logs, seperating what you can now see is a courtyard. The wall extends to the other side of the yard, with no clear openings between the logs.
+Why this was done is unknown, but what you do know is that you can see another door directly across from you on the other side of the court. 
+
+[[through the door on the other side of the courtyard]] 
+
+
+:: through the door on the other side of the courtyard {"position":"1500,400","size":"100,100"}
+Through the door is a dining hall that, while abandoned, has been decorated with old tapestries and odd trinkets that you would assume have been pilfered from various towns around here. 
+The table in the middle of the hall is piled with basic foodstuffs; breads, ale, slightly charred veggies, and a plate of cooked, sliced ham in the middle of the table. 
+As you get your bearings you hear a door on the left side of the room open quickly. A short, stocky man walks through the door, eyes set on some sort of map, and headed directly towards the dining table. He's muttering to himself as he strolls over, eventually sitting down at the table. Without even lifting his eyes he reaches out and grabs a roll, takes a bite, and then finally looks up from his map. 
+"Ah! They've finally brought you in, please, have a seat."
