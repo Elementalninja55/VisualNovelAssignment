@@ -1,0 +1,290 @@
+:: StoryTitle
+Kidnapped and In Danger
+
+
+:: StoryData
+{
+  "ifid": "7B993A88-253B-4373-9C5D-C3AC62D6CC94",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "zoom": 1
+}
+
+
+:: Escape! {"position":"1900,400","size":"100,100"}
+You run through the door. Practically breaking the door down it swings open to the night air. You keep running. You barely register that you've left the castle at this point, the armoury leading to a yard outside of the castle walls. You see training dummies for the people who would have lived here. 
+
+But for all you know they could have been people, you barely register them as you pass. They were as still as dummies, that's all you know. 
+
+You make a break for the brush and into the forest. Branches slap your face as you run through the woods. You nearly trip over roots and rocks. But you don't care. All you care about is getting away.
+
+You charge out of a different treeline and run onto a road, almost running into a waggon. The horse rears up and whinnies but luckily doesn't hit you. 
+
+"What on gods green earth are you doin' kid? Chargin out of the woods like the devil!" 
+
+You look to the carriage and see an old man at the reigns. 
+
+"You have to help me, I was- I was held captive by these bandits and-," 
+
+Before you can get another word out the old man goes from looking angry to worried. 
+
+"Oh my god, hop on boy, those bastards are nothin' but trouble. I'll take you into town."
+
+You get up the waggon and sit in the back with the hay. 
+
+With your first moment of rest you finally begin to feel the aches all across your body. your muscles are screaming for rest, heart pounding in your ears, and breathing laboured and heavy. You're barely holding on, but you've made it. You're free.
+
+As you rest in the hay, you can barely make out that the old man was telling you something about the king's guard personally coming by in the morning to expel the bandits from here; but you can hardly keep your eyes open. 
+
+When the old man turns to check on you he recognizes how tired you are. 
+
+"Get some sleep kid, you look like hell. I'll wake you up when we get there,"
+
+You try to retort but all you can do is yawn. You feel like hell. And while they hay isn't the comfiest, its far better than where you were. So you take his advice, and close your eyes. 
+
+Your body's been run ragged, your mind in panic, and your soul put to the test. But in the end, you escaped. You're safe. 
+
+[[epilogue]]
+
+
+
+:: Hide under the table {"position":"1700,600","size":"100,100"}
+You quickly crouch and hide under the table. You huddle your legs together to get as much of your body under the table as possible. 
+
+You wait in silence. The guards voices are muffled. 
+
+But then you hear footsteps. They begin to grow louder. 
+
+"... so you're saying the boss wants to stay in this dump?"
+
+"For now. We've had some good fortune here." 
+
+"Yeah good fortune picking up brats off the street. Nothing like back in Memphis though."
+
+"We were risking our lives out there. Barely finding water; moving from one place to the next. Sure we were always on the move, but it was never steady or safe. The Medjay were always on our tails in Memphis."
+
+"But the gold was so worth it." 
+
+"I do miss the gold."
+
+"Hey, whats this?" 
+
+You freeze up as you see the feet of one of the guards stop near your hiding spot. 
+
+"What?"
+
+"Theres something on the ground here."
+
+It takes every ounce of strength in your body to stay as still as possible. You kept your legs as close to you as possible. How could they even see you?
+
+You watch as the guards legs begin to crouch. You watch as his hand reaches under the table. You get ready to kick out when:
+
+"It's that sword I was tellin you about, the one from Athens."
+
+"No kiddin'? Speak of the devil I guess."
+
+You almost breathe a sigh of relief as a the guard grabs at a sword that you couldn't see because of your legs. You barely hear the rest of their converstation as the guards leave, you hearbeat was poudning in your ears. 
+
+You wait a minute or two more to be absolutely sure. Finally after what feels like an eternity, you get up from underneatht the table and make for the door. 
+
+[[Escape!]] 
+
+(set: $passive to $passive +1)
+
+
+:: Look around the room. {"position":"900,400","size":"100,100"}
+After your eyes adjust a bit you look around the oom. The space is rather empty. Only straw piles and chains strewn around the room. The bandits didn't even have the decency to leave you on the straw piles; they left you on the cold stone floor. 
+
+Your search was not in vain however; through the darkness, on the other side of the room, are two doors.
+
+[[Moving towards the doors]]
+
+
+:: Make a break for the door {"position":"1700,400","size":"100,100"}
+You turn to run for the door, immediately knocking into a rack of weapons, tripping and knocking them over. The guards turn to look at the noise. 
+
+"HEY!" one of them yells. 
+
+You quickly get up to your feet and stumble into a run again. As you do so you quickly turn to knock a table over, throwing various weapons and items across the floor and blocking the guards off. 
+
+One of them goes to run and jump over the table but trips on a loss arrow, falling flat on his face. The other panics and turns to run around the table to keep up the chase. 
+
+You keep running anc knock a rack over behind you, blocking off the other side as well effectively blocking off the other side. 
+
+"Get back here!"
+
+You don't listen, you just keep running. 
+
+[[Escape!]] 
+
+
+:: Moving towards the doors {"position":"1100,400","size":"100,100"}
+The doors ahead of you look similar in shape in size: heavy wooden doors with oxidized hinges and iron bar windows just low enough that the average adult could peek through them.
+
+The left door has a faint flicker of light you can see through the bars, as well as faint, slow footsteps that come to a hault. The right is completely dark, with only the sounds of scurrying rats. 
+
+[[Try to leave through the left door]]
+[[Try to leave through the right door]]
+[[Stay put]]
+
+
+:: Scream for help. {"position":"900,200","size":"100,100"}
+You scream as loud as you can. Your voice bounces off the walls, straining your ears. You continue to yell, shout, and scream: but no one answers your call. 
+
+Through your calls however. you hear your voice echo behind you. You turn and see two doors ahead of you, with iron bar windows.
+
+[[Moving towards the doors]]
+
+(set $risk to $risk +1)
+
+
+:: Sit and wait {"position":"900,600","size":"100,100"}
+You sit in silence. You feel the throbbing of your head. You shiver from the cold stone flooring. Out of the corner of your eye you see strewn about straw. Absentmindedly, you move towards the straw; while uncomfy, it is slightly more warm then the stone floor. 
+
+Continuing to sit in silence. Your hear the drips of water, the scurrying of rats, and the ever so distant sound of echoing footsteps.
+
+Footsteps? You turn to the source of the sound. Behind you, you see two doors, with barred windows.
+
+[[Moving towards the doors]]
+
+(set: $passive to $passive +1)
+
+
+:: Start {"position":"500,400","size":"100,100"}
+You wake up on something cold and solid. Shivering, you begin to sit up, before a sharp pain throbs in your head. It is then that you remember what happened.
+
+You were travelling home when you were hit with a blow to the back of the head. As your conciousness faded, you felt someone catch your fainting body and cover your head with a sack. Everything then went black. 
+
+[[What do you do?]] 
+
+
+:: Stay put {"position":"1300,600","size":"100,100"}
+You decide to stay put and wait out whatever is happening here. there were distant footsteps you could hear a moment ago and you don't want to cause more trouble for yourself. 
+
+You gather the strewn straw a bit more into a little pile, for a much comfier seat. It's not much, but it's far better than the cold floor. 
+
+You sit and contemplate. Was there any way to avoid this? You know you shouldn't blame yourself, but could it have been avoided? The days were getting shorter after all, and it's a lot more dangerous to travel in the dark. Would it have been better to wait until morning? 
+
+Your river of thoughts are broken by the sound of snoring. Getting up to check the left door, you look and find a guard accross the courtyard who, you assume, was patrolling the perimiter. Now however, he was slumped over in a chair, fast asleep. 
+
+Sitting back down you think you contemplate. Should you try the door now? You didn't hear any steps coming from the right, so that must have been the only guard. 
+
+The bandits have given you no rations so far, and you already were running low on water even before you started for home. You must escape, even if just to find water. 
+
+[[Try to leave through the right door]]
+
+(set: $passive to $passive +1)
+
+
+:: Try to leave through the left door {"position":"1300,200","size":"100,100"}
+Slowly standing, you get up and move toward the left door to try and open it. The door is heavy, and locked. You push a little harder and hear a SNAP. You swing the door out to see that the lock was made of rather old and rotted wood. If it was any younger it surely would have kept you in; luckily for you, it isn't. 
+
+Going through the door you see to your immediate right a makeshift wall that extends to the other side of what appears to be a courtyard. There are no gaps in the wall either, at least non you can fit through. This area would have been a lovely wide courtyard if not for it.
+
+Looking through the open area you see on the other side of the court a bandit with a torch to his side, slotted into a torch holder. You panic for a momement, think you've been spotted, only to realize the bandit is sleeping in a chair. After a seond or two he makes a loud snore. A close call, if he was anymore awake you would have surely been caught. 
+
+You look to the other side of the court and see another open door.
+
+[[through the door on the other side of the courtyard]]
+
+(set: $risk to $risk +1)
+
+
+:: Try to leave through the right door {"position":"1300,400","size":"100,100"}
+Slowly standing, you move towards the right door and try to open it. To your surprise it's unlocked. in fact there was no key hole in the door to begin with. There was a chair to your right as you left the doorway. It was probably meant to be propped under the handle to keep the door closed. Someone must have forgot. 
+
+Moving outside, you see to your immediate left what appears to be a makeshift wall made of logs, seperating what you can now see is a courtyard. The wall extends to the other side of the yard, with no clear openings between the logs.
+
+Food scraps and garbage are left around the yard, causing rats to scurry about. This must be why this area was blocked off.
+
+As you walk through the scraps you accidentally kick a rag off of something, that something looking like a human hand. You quickly cover your mouth to hide you gasp. This must be the other reason why this area was blocked off. 
+
+You move a little faster, luckily to another door on the other side of the courtyard. Best to leave as quickly as possible. 
+
+[[through the door on the other side of the courtyard]]
+
+
+:: Use the bow and arrows {"position":"1700,200","size":"100,100"}
+You quickly grab the bow and string an arrow in. You start to pull back; it's way more difficult then you thought it would be, like pulling the reigns back on a rogue horse. 
+
+(if: passive > 2)[
+But you finally have a moment to strike. you have to take this shot. This is your chance to take things back into your won hands. 
+]
+
+You apply more strength and pull it back as far as you can and take aim at the bandit on the right. You let the arrow fly. 
+
+With a whistle, the arrow hits your target square in the back. The bandit is knocked into the weapons rack with a CRASH, impaling himself on a spear as well.
+
+The bandit to the left jumps in shock and turns suddenly towards you. 
+
+"HEY!" he reaches for his waist but realizes he's got nothing there. 
+
+Your hands fumble as you try to grab another arrow and realign your shot. You almost drop the arrow, but are able to pull back and take another shot. 
+
+The arrow whizzes past the bandit's arm. 
+
+You look into his face and see rage and fear in his eyes. He's grabbed a spear at this point and is rounding the table corner now, raising his spear to aim for your chest. 
+
+You grab for another arrow, it slips your grasp and rolls a little before you swipe at it again, grabbing it tightly and reaiming your shot again. 
+
+You pull back, straining your muscles to the point of intense pain before letting the arrow fly. 
+
+The arrow flies straight into the bandit's gut, propelling him backwards. 
+
+Sweating, you take a breath. Tears stream down your face. You've only taken the lives of animals before, and you've never had to listen to them gasp and choke on blood as they die. 
+
+But this is no time to think. You drop the bow and make a break for the door. 
+
+[[Escape!]]
+
+(set: $risk to $risk + 1)
+
+
+:: What do you do? {"position":"700,400","size":"100,100"}
+Putting this and the stories you heard about the roving bandits who had moved into the abandoned castle near the village, you theorize that you may have been kidnapped. 
+
+The air is cold and damp, and you can faintly hear noises around you, but your eyes haven't adjusted to the darkness quite yet...
+
+[[Look around the room.]]
+[[Scream for help.]]
+[[Sit and wait]]
+
+
+:: epilogue {"position":"2100,400","size":"100,100"}
+The next day comes and goes. The Kings guard did indeed arive and drive out the bandits. Apparently the King himself heard the news of these bandits all the way at the capitol. The guard travelled here for three days and nights just for your village and countryside. 
+
+You yourself were taken in to the local inn and given plenty of rest. Your friends and family came to check in on you that afternoon since they hadn't heard from you in so long. 
+
+But after the worry had settled and when the day after things became safe again, the village and countryside were in celebration. The village welcomed the knights and milita who had saved them and gave little feasts and parties here and there. While your village was a bit richer than most, it had not seen such a plague of criminality before this, so the people were quite happy. 
+
+You even became a small time hero to some of the village. Many who were captured were extorted for food or gold, but you? You were able to escape!
+
+Many looked up to you for your bravery and quick thinking in the face of such danger. 
+
+Eventually things would return to normal, and while you bear the scars of an ill-intentioned adventure, you walk away from it unscathed and grown. 
+
+
+:: through the door on the other side of the courtyard {"position":"1500,400","size":"100,100"}
+As you walk through the door, you enter what appears to be an armoury. 
+
+All differnet lengths of spears and longswords are propped against the walls, bows hung on racks, quivers tucked away, targets stacked up, and arrows strewn about on tables. This room is rather well stocked. 
+
+Looking closely at the weapons, some seem like they're from different lands. You've never seen such a curved, hooked sword before, but you had heard stories about a kingdom with but sand, rising and falling rivers, and monuments that are said to use such swords. 
+
+These bandits must be very worldly to have such stock. 
+
+As you think this, you finally finish surveying the room and freeze. Near the far right wall, you see two guards taking stock of the weapons. 
+
+(if: $risky > 2)[
+You can hear the guards talk about keeping an eye on the latest prisoner. Are they talking about you?
+]
+(else:)[
+The guards are whispering to quietly for you to hear what they are saying
+]
+
+It's obvious they haven't noticied you yet, but for how long? You quickly take stock of your surroundings. In front of you is a long table, low to the floor but not too low that you can't hide under it. On the table is a bow and a set of arrows. To your left is a door, but to where?
+
+[[Use the bow and arrows]]
+[[Make a break for the door]]
+[[Hide under the table]]
