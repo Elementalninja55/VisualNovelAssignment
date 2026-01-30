@@ -1,0 +1,530 @@
+:: StoryTitle
+Kidnapped and In Danger
+
+
+:: StoryData
+{
+  "ifid": "7B993A88-253B-4373-9C5D-C3AC62D6CC94",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "zoom": 1
+}
+
+
+:: Break the door down {"position":"1100,200","size":"100,100"}
+The door is far too old to hold you back. You've been a farmhand for a good chunk of your life!
+
+You step back to the very back of the room. Set your body in position. Then you run for the door! 
+
+You burst through with exploding force! CRASH! The door splinters apart, boards flying in different directions. Not so sturdy at all. 
+
+[[Look around]]
+
+(set: $strength to $strength + 1)
+
+(set: $loudnoise to true)
+
+
+:: Check the door {"position":"900,400","size":"100,100"}
+The door is old. You can tell just from looking at it. The wood is rotting, and the little bars in its window are already beginning to fall out. It's obvious this castle has been abandoned for awhile, only recently occupied by these bandits. 
+
+You think to yourself, with just enough strength, and a running start, you could probably bust that door down. 
+
+But also you have your new lockpick set. You could try and unlock the door. 
+
+Or, think outside of the box. Pry the door from it's hinges with the screwdriver. 
+
+[[Break the door down]]
+
+[[Pick the Lock]]
+
+[[Take off the hinges]]
+
+
+:: Distract/scare him {"position":"1500,600","size":"100,100"}
+You check out the talisman again. When you were a kid the ones you played with were more like fire works. These spells seem more like actual weapons this time around. 
+
+You don't move to hurt the guy though. You get just out of sight and hide behind a barrel before setting you plan in motion. All you need to do is fold the paper talisman in such a way that will finish the spell and throw it to the ground. 
+
+Hyping yourself up and prepping your scariest voice you can, you fold and throw the talisman in front of you and wait for it to react. After a few seconds the talisman erupts in a pillar of flames. 
+
+"WHO DARES CAPTURE MY VESSEL?" you screech. 
+
+The guards reaction is immediate. He screams in terror, dropping his torch and runs into your old cell. He topples over the barrel of feed in the cell and hides under it. You wait a few seconds to see if he does anything else, but nope, he stays in hiding. You must have given him a real good scare. You get up from behind your hiding place and move on. 
+
+[[To the Armoury]] 
+
+(set: $intelligence to $intelligence + 1)
+
+(set: $loudnoise to true)
+
+(set: $usedatalisman to true)
+
+
+:: Fix the gate {"position":"2300,600","size":"100,100"}
+You're not exactly good with machines, but you've fixed different tools around town and on the farms. 
+
+You pry open the panel and take a look at it inside. It takes you awhile to notice, but one of the gears has lost a tooth from wear and tear. You look around and see a box of gears next on top of a barrel a few feet away. You guess the bandits knew of this too and were going to fix it later. 
+
+You decide to take it upon yourself and to replace the gear. It takes a bit of work but you're able to get it working again. You think. 
+
+Time for the moment of truth. You pull on the lever and wait. The gate slowly rise and a brake or locking system locks itself into place to keep the gate from falling. Success!
+
+You strut outside of the courtyard, proud of you accomplishment!
+
+[[Leave the castle grounds]]
+
+(set: $intelligence to $intelligence + 1)
+
+
+:: Go to the window {"position":"500,400","size":"100,100"}
+You walk towards the window, but before you reach it you just barely miss a small satcel being thrown into it, almost hitting you in the face. 
+
+In shock and confusion you look out the window, just barely able to peak through the bars. a few feet below, you see a familiar face, the new bard from the inn. His blond curly locks shine a bit in the moonlight, and his fave is visable with a big smile on his face. 
+
+He doesn's say anything but he gestures to his own satchel, opens it, and then points it at you, before running into the bushes. Odd.
+
+You wait for him to come back. He doesn't. Eventually, you pull your head back in, and check the satchel; theres a note inside. 
+
+[[Read the note]]
+
+
+:: Grab the bow and arrows {"position":"1900,400","size":"100,100"}
+You grab the bow and knock an arrow in. Pulling the string back you see a faint purple glow from the tip of the arrow. But you can't focus on this now. You pull back the string and let the arrow fly. 
+
+If you were in the woods it would have been quiet, but since you're in a room, the arrow flies with a hiss, the noise bouncing off the stone walls. The arrow flies throught the first guard, straight through. The force of the arrow sends him tumbling back to the floor, curling his body towards his wound. 
+
+The second guard stops and turns to look at her partner in crime. She turns back in anger and starts running towards you. You almost fumble the next arrow but feel a surge of fluidity flow through you. You knock the arrow like a pro hunter and aim. 
+
+You let the arrow fly. Another hiss, and another arrow that flies straight through the other guard. this one Embeds itsef in the stone wall behind her. This guard is more sturdy, and stays standing, but she tries to take another step, and crumples forward. 
+
+You look at the arrows dumbfounded. But you can't study it further right now. You collect both arrows, they both still look like new, as if you didnt shoot them at all. You quiver them and sling the bow around your shoulder and move on, like a hunter leaving prey behind. 
+
+[[Leave the Armoury]] 
+
+(set: $skill to $skill + 1)
+
+(set: $obsidianbowandarrow to true)
+
+
+:: Grab the staff {"position":"1900,600","size":"100,100"}
+You quickly jump and grab the staff hanging on the wall. You're no magic user, but you've played with the wizardry students way back when, and you've seen them use talismans as a quick way to cast spells without knowing them with a staff. 
+
+The vines around the staff snake around your hands. For a second you're worried that they would try and take off your hand or something weird, but instead they keep your grip steady, as if its also grabbing onto you. 
+
+The guards are moving in closer. You need to act fast. 
+
+(if: $usedatalisman is true)[You quickly fold the talisman and raise it to the gem on the staff. It hovers in front of it for a second before burning itself and the gem absorbing the ashes.]
+(if: $usedatalisman is false)[You recheck the talisman. The ones you used with the wizardry students were more like fireworks and fired as such. These looked more like weapons to kill. For the staff to use it you fold it to activate it and hold it to the gem on the staff. It hovers in front of it for a second before burning itself  and the gem absorbing its ashes.]
+
+The gem on the staff glows orange before fire erupts from it, as if it was dragons breath, engulfing the guards in flames. You can hear nothing but the roaring flames. 
+
+When the flames subside, you see nothing but ash where the guards were. Luckily the flames did not hit any of the other parts of the room, as if the staff had a mind of its own.
+
+In fact the staff begins to shrinks and turns to vines that crawl up your arm. You're worried at first before you realized they only curl around your forearm. You assume this is a form of magical storage for wizards. 
+
+You quickly move past the ashes and make your way for the exit. It doesn't even feel like you killed anyone; they were there, and then they weren't.
+
+[[Leave the Armoury]] 
+
+(set: $intelligence to $intelligence + 1)
+
+(set: $staffofbacchus to true)
+
+
+:: Grab the swords {"position":"1900,200","size":"100,100"}
+You quickly wrap the straight sword sheath around you, strap the shield on your arm and weild the longsword. Its heavy, but you make do. 
+
+As the first guard runs up to you, faster than the other one, you swing your longsword at just the right time. The sword cuts through him like butter, and embeds itself in the stone wall. The guard topples to pieces like a dummy. 
+
+The second guard is stunned, but regains her composure and charges with a roar. You lift your shield in time to block her sword strike. The shield feels light in on your arm, but blocks the strike as if its a solid steel. As you have your shield up, you draw your blade; a flash of blue. You quickly embed the blue blade in the guard with one swift strike. the blade cleaver through her armour as if it was cloth. 
+
+You can't bear to look at the guard topple over. You know they would have killed you if you didn't fight back, but its still a hard sight to bear witness to. You pull the blade out and look at the blood stained on it. You wipe off the blade with a spare towel off to the side of the room an sheath it. You do the same with the longsword and take it with you. 
+
+You have drawn blood, but survived, and so you move forward. 
+
+[[Leave the Armoury]]
+
+(set: $cobaltblade to true)
+
+(set: $strength to $strength + 1)
+
+
+:: Keep Looking {"position":"300,400","size":"100,100"}
+You get up and look around some more. You spot the old feed thats been sitting in the room. It's stale, and inedible. You can feel your stomach grumble, and your mouth feels dry. You need to get out of here, if anything just to take care of yourself. 
+
+Yout think about the inn at your village, and all the hearty meals they serve. But you don't just miss that, you miss the camradarie and the tall tales told at every table. You haven't been gone from the village long and yet you already are reminiscing on this, especialy since theres been a new bard in town, one whos stories have been adventurous and glorious. 
+
+Just then you hear a "PSSSST," at the window. 
+
+[[Go to the window]]
+
+
+
+:: Knock him out {"position":"1500,200","size":"100,100"}
+The man's scrawny. You've lived your whole teenage life on the farm. He's also only got a torch. You can take him. 
+
+You grab your baton and run up to him with a Roar! You scare the man into freezing as you run up and clock him in the face with the baton.
+
+The man falls like a ragdoll. For a second you're worried you killed him. But then you hear him moan in pain. You spot some shackles on him and decide to cuff him and leave him beside the door you just left from.
+
+Proud and fired up, you leave the courtyard. 
+
+[[To the Armoury]]
+
+(set: $loudnoise to true)
+
+(set: $strength to $strength + 1)
+
+
+:: Leave the Armoury {"position":"2100,400","size":"100,100"}
+You quickly run up the stairs and leave the armoury. The door to outside opens up to a much more grander courtyard, albeit abandoned and in disaray. Non-functional fountains line the sides, the ground made up of yellowed marble. In its hayday, this place must've looked grand. 
+
+At the end of the courtyard is an ornate gate. You walk past one of the halls and here a dinner being held, with sounds of laughter and drinking. Seems like the rest of the band of bandits are distracted.
+
+But you can't rest on your laurels. You start to jog over to the gate and check it out. 
+
+The gate is rather mechanical, it looks like it was made by an artificer. It's unlike any gate you've ever seen. Massive too. You could fit elephants through here. At least you think, you've never seen an elephant in person, only heard of them in stories. 
+
+You look around more and find a lever that you assume opens the gate. You pull on it, and you begin to watch as it opens its maw, before violently chomping down. You pull on the lever again. The gate rises, and then drops again. 
+
+Confused, you think on what to do next. 
+
+Looking at the gate, it looks heavy, but you noticed that one of the chains wasn't pulling anything. you bet if you pulled that that might help keep the gate open. 
+
+The gate also lifts far enough that if you run and slide under the gate, you would make it. 
+
+You also see a wooden panel beside the lever. You wonder if anything in there could be fiddled with to help make this gate work. 
+
+[[Pull the chains]]
+
+[[Slide under the gate]]
+
+[[Fix the gate]]
+
+
+:: Leave the castle grounds {"position":"2500,400","size":"100,100"}
+It takes some time for you to get back to the village, but surprisingly nothing else stops your path. 
+
+You arrive at the inn to see a good chunk of the townspeople huddled around the bard, sounding worried about you. As soon as you walk in, the bard shouts in a joyous cheer. 
+
+"Our hometown hero has returned home!"
+
+The rest of the townspeople turn to look at you and all run over to crowd around you to see if you're alright, to cheer, to ask about the story of it all. 
+
+Once you finally get your bearings and a drink you're sat in the bard's usual stool, and tell your own story; how you escaped your cell, took on bandit guards, and escaped the castle grounds. 
+
+While not the most exciting story of dragons and monsters that the bard usually tells, the townspeople were way more excited over this one because it happened to you! Someone in your own town being kidnapped, and then escaping and taking on bandits, living to tell the tale! 
+
+The bard is very excited for you as well, and pulls you aside when everything dies down a bit.  
+
+"I knew you had it in you, you have the makings of a real hero! In fact, we want to ask you to join us."
+
+"We?" you ask. 
+
+You both walk outside to see a small band of adventurers; rogues, warriors, wizards, arteficers, barbarians and rangers. They all turn to you and give waves, nods, and hellos. 
+
+The bard speaks up again. "You see, I'm a member of this band of misfits and go-getters, and we've been looking for another member. Our creed was established a long time ago with the goal to train new adventurers like you! We're called on for treasure hunting, bandit fighting, all sorts of things! Whereever there is for the call of adventure, we seek it out! What do you think?"
+
+As if on cue, the band seperates themselves into little groups, rogues and rangers, warriors and barbarians, and wizards and arteficers. 
+
+"We can set you up in one of these groups for now, it's not a forever thing, you can change your class up later, but if you want to join, who do you want to start training with?
+
+Your body is filled with overwhelming giddy and joy, You always wanted to be an adventurer. But who will you choose to train with? Based on your experiences on the little escape adventure, you think you'd fit best with:
+
+(if: $strength > 1)[[You think you've aligned with the barbarians and warriors]]
+
+(if: $skill > 1)[[You think you've aligned with the rangers and rogues]]
+
+(if: $intelligence > 1)[[You think you've aligned with the wizards and arteficers]]
+
+[[You think you've aligned with the bards]]
+
+
+:: Look around {"position":"1300,400","size":"100,100"}
+(if: $loudnoise is true)["Who's there?" a growly voice pipes up. "What's going on?"]
+
+The darkness of the night fills the courtyard. If it not for the man to your left patrolling wiht a torch, there would be no light int he courtyard at all. 
+
+Luckily for you, you're in that darkness, for now. The man is making his way towards you. (if: $loudnoise is true)[And quickly too.]
+
+You need to get out of this, and fast. You look in your satchel. 
+
+You see the baton. The man is shorter than you, looks on the skinnier side too. One good hit with the baton would knock him out. 
+
+You spot the cloak. You're already in the dark, why not embrace it, sneak through the courtyard out of sight. 
+
+Then you look at the talismans. A good distraction might help with an escape, or better yet scare the guard off. 
+
+[[Knock him out]]
+
+[[Sneak out]]
+
+[[Distract/scare him]]
+
+
+:: Pick the Lock {"position":"1100,400","size":"100,100"}
+You used to play around with the locks in your new house in the village, especially since your locksmith didn't arrive on time like he was supposed to. But thanks to that you have a basic understanding of how to pick a lot. 
+
+You thumb at the tools and grab a rather simple looking tension wrench. These are older, but still professional grade lockpicks. 
+
+Fumbling a little, you get to work. 
+
+If an established rogue or thief were to see you right now, they would be able to tell you were new to this. But you've had a little experience. After a bit of trial and error you finally hear the clicks you've been waiting for. 
+
+You get up, and quietly push open the door with ease. 
+
+[[Look around]] 
+
+(set: $skill to $skill + 1)
+
+
+:: Pull the chains {"position":"2300,200","size":"100,100"}
+It's gotta be the chains. They aren't pulling their weight; and you heard pully systems makes it easier to lift things, both heard from sailors who come into town and wizards. They can't BOTH be wrong. 
+
+You pull on the lever and then grab on the non functioning chain and start pulling. 
+
+It's strong, like playing tug of war with a horse. But you used to do that with your dads horse, so you keep pulling. 
+
+It doesn't lift help lift the gate but it does is extend some sort of break or lock that holds the gate in place from falling. Success! 
+
+The gap is still rather short, but you just duck under the gate and you're free!
+
+[[Leave the castle grounds]] 
+
+(set: $strength to $strength + 1)
+
+
+:: Read the note {"position":"700,400","size":"100,100"}
+"Dear captured soul. 
+
+I saw you get kidnapped! Woe is me, it was heartbreaking to watch. But I've been watching this band of bandits. They will not kill you, but will try to extort you and your family! Luckily for you, I am here to help! 
+
+Not in the way you think though! You see, I've seen you at my performances, you never miss a single one! I can tell you long for adventure! But since you are a novice, I've only given you what you need to help you escape. 
+
+I've called upon my mates to take care of the camp in the morning. If you fail you will still be saved! However, if you succeed, you'll have quite the story to tell! And many paths to take moving forward. 
+
+Do what you will, but I urge you! Be brave! Be the hero!"
+
+You look in the bag some more. There is a cloak, a set of lock picks, a small baton, a screwdriver, and a couple of paper talismans you recognize as being able to conjure fire (from your days of playing pranks with the local wizardry students). A useful but odd set of tools. Might as well try to make an escape though. 
+
+[[Check the door]]
+
+
+:: Slide under the gate {"position":"2300,400","size":"100,100"}
+You gotta make the timing work with this one. And if it does it will look really cool, even if no one is around to see it. 
+
+You pull on the lever and wait for the gate to start rising. When it does you go for a running start. Right as the gate rises just enough for you to fit through, you burst from a run to a sprint and slide under the gap. 
+
+You slide out of the castle courtyard like a bat out of hell, then slow to a stop. As you finall stop, the gate slams down quite a few feet behind you. 
+
+You made it out with flying colours!
+
+[[Leave the castle grounds]] 
+
+(set: $skill to $skill + 1)
+
+
+:: Sneak out {"position":"1500,400","size":"100,100"}
+You quickly throw the cloak around yourself, hiding any colour you had on you, and blend into the darkness. As long as you stay out of the torchlight, no one would see you. 
+
+You dodge and weave through different torches on the far walls too. At first you were worried you'd still be spotted, but then you realized how much of a knack you had for this. You were always good at hide and seek when you were young. 
+
+When you get to the other side of the courtyard, you turn to look at the man, whos still looking in the direction of your make shift cell. You chuckle to yoruself before moving on. 
+
+[[To the Armoury]] 
+
+(set: $skill to $skill + 1)
+
+
+:: Start {"position":"100,400","size":"100,100"}
+You wake up in a daze. You were on your way home when you felt a sudden blow to the back of the head. It knocked you out cold. The last thing you remember was having a sack thrown over your head. 
+
+Looking around the room, you can tell you're in some kind of castle, but you're not in some holding cell. the floor is cover in straw and hay, bared windows on the walls show a clear night sky outside, and the faint smell of animal feed fills your nostrils. You're in some kind of stock pen. 
+
+[[Keep Looking]] 
+
+
+:: Take off the hinges {"position":"1100,600","size":"100,100"}
+Work smarter, not harder. Since this is only a makeshift dungeon, you can tell that there are hinges on the inside. it was designed to keep animals inside, not humans with hands and tools. 
+
+You grab the screwdriver and go to work on the door. the screws are a little tight and rusty, so you need to add some extra oomph to your twists, but after awhile you get all the screws out of the door, and it falls to the ground with a THUD. 
+
+[[Look around]] 
+
+(Set: $intelligence to $intelligence + 1)
+
+(set: $loudnoise to true)
+
+
+:: To the Armoury {"position":"1700,400","size":"100,100"}
+You walk back into the inner part of the castle and find yourself in an armoury. It is stocked from tables to walls with weapons, most old and abandoned, but weapons nonetheless. 
+
+You're about to continue walking when you see two bandits standing guard outside the door. 
+
+(if: $loudnoise is true) ["Did you hear that noise earlier?"
+
+"Not my problem. It's probably just that plebian Nathaniel fooling around with those weapons again,"]
+
+Unlike the last guard, these guys mean business. They're armed and seem more skilled then the last one. 
+
+"When do you think we'll be able to go raiding again?"
+
+"Ugh with this new guy as leader? Not for awhile. While you were out cold, he gave me a good lashing for us killing those pompous civies in the last village."
+
+... And they seem bloodthirsty. If you get in a fight with these guys you need to be ready. You look around the room. 
+
+On the table theres a bow and a quiver of arrows that look rather new. Well decorated too, with leaves carved into the bow and arrow tips made of some sort of black, glossy material, as if it was glass. 
+
+Leaning on the table is a longsword, but not like any longsword you've seen. The blade was blue, almost as if it was made from cobalt and ocean water. Next to it was a shethed straight sword and a wooden shield. As you touched the shield though, you realized it felt more like steel than wood, but still weighed like wood. 
+
+Then finally, hanging on the wall was this staff with a red gem inside the top. along the handle was, what looked like, living vines. As you watch it, the vines continue to move and curl around the handle. 
+
+"HEY! What are you doing here?"
+
+Whoops. You were so enraptured by the weapons here that you didn't notice them turn around to look at you. They are still on the other side of the room but they're moving towards you, and fast. Time to act fast. 
+
+[[Grab the swords]]
+
+[[Grab the bow and arrows]]
+
+[[Grab the staff]]
+
+
+:: You think you've aligned with the barbarians and warriors {"position":"2700,100","size":"100,100"}
+Your adventure was filled with strength, courage, and boldness. You want to be on the frontlines of battle, fighting tooth and nail for your friends and goals. 
+
+You want to use your strength to the fullest extent it can go. 
+
+You walk over to the barbarians and warriors as they erupt into a roarous cheer. 
+
+For the next few days before you leave with them for your training, you say goodbye to your friends, family and village. You will miss them and they will miss you, but you all know this is what you want. 
+
+Once the bandit camp is cleared, you begin your travels with the group of adventurers, with a couple of the warriors putting a weight in your fist already as you get on your horse. 
+
+"For some passive training!" she says as she gets on her horse. 
+
+(if: $cobaltblade is true)[As you strap your swords to your side and back, and your shield is on your arm, a barbarian looks over at you in shock and awe.
+
+"Are those moonlight swords?"
+
+You look at him in confusion.
+
+"Those swords are extremely rare, forge by the eastern dwarves. The minerals they're made of cut through armour as if it was cloth."
+
+"Fortune smiles upon you my friend," One of the paladins who recently arrived pats you on the back. "Lets see how far we can take that fortune!" he gallops ahead]
+
+The bard smiles at you. "Making friends already, I think you're going to enjoy our little group here," he pats your horse and it gallops forward to join the rest of them, lurching you back a bit. You look back to see your village waving you off. You wave back before looking ahead at the rising sun. You think you're going to enjoy it too. 
+
+
+
+
+:: You think you've aligned with the bards {"position":"2700,700","size":"100,100"}
+You turn back to the bard. 
+
+"Actually, I think I wanna be like you. You've got a little bit of everything going. Intelligence, skill-" 
+
+"You should see how much he can lift! He looks scrawny, but packs a punch!" A barbarian pipes up, to which everyone giggles. 
+
+"See? What do you say? Want a performance partner?"
+
+The bard blushes but smiles. "I would love one! It takes a lot of bravery to do what I do though, think you've got what it takes?"
+
+You nod with a big smile. 
+
+"Then lets get to it!"
+
+Everyone in the group cheers, hoots, hollars, roars, and sets off fire works, another bard joining the group. 
+
+For the next few days before you leave with them for your training, you say goodbye to your friends, family and village. You will miss them and they will miss you, but you all know this is what you want. 
+
+Once the bandit camp is cleared, you begin your travels with the group of adventurers.
+
+"You know this roaming family band used to be just a band of bards."
+
+"Oh? what happened?"
+
+"We took in more people, then split up the bards to recruit more students of adventure. After all, who else would make a call to adventure so enticing?" 
+
+You smile with excitement. 
+
+"We'll get you set up back at the capital, get you an instrument and-" 
+
+"Wait, you never really told me your name."
+
+The bard stumbles over his words. "I guess I never did."
+
+"You're a part of my story too, an important part! You have to tell me your name."
+
+The bard's smile grows even bigger. "Apollo, my name is Apollo."
+
+You shake hands with him and you both get on your horses to lead your caravan of adventurers. 
+
+"Well alright Apollo, let's go answer this call to adventure!"
+
+With some cheers, you both begin to lead your band off. You look back to see your village waving you off. You wave back before looking ahead at the rising sun. You think you're going to enjoy it too. 
+
+
+:: You think you've aligned with the rangers and rogues {"position":"2700,300","size":"100,100"}
+You've honed your skill over this adventure, you've gained quick feet, and good intuition. 
+
+You want to use this skill to the fullest extent it can go. 
+
+You walk over to the rogues and rangers and they hoot, hollar and whistle as you do so. 
+
+For the next few days before you leave with them for your training, you say goodbye to your friends, family and village. You will miss them and they will miss you, but you all know this is what you want. 
+
+Once the bandit camp is cleared, you begin your travels with the group of adventurers, with a ranger arleady trying to teach you how to shoot from horse back. 
+
+"Let him rest a little Jason, he only just escaped a bandit camp," one of the rogues chuckles as she climbs into a carriage. 
+
+"Why not start learning already though!
+
+(if: $obsidianbowandarrow is true)[you pull out your bow and try to aim at a target in the distance with an arrow. 
+
+"Well I'll be, that's an elven bow that is." 
+
+You turn back to see a ranger admiring your bow. 
+
+"And some obsidian arrows, Elven too. Those fetch a pretty penny." a rogue behing them says.
+
+"Yeah because they're practically unbreakable. The arrows aren't super rare, but still expensive. best to fetch them after shooting them kid. They'll last you a long time and then some."]
+
+The bard smiles at you. "Making friends already, I think you're going to enjoy our little group here," he pats your horse and it gallops forward to join the rest of them, lurching you back a bit. 
+
+You look back to see your village waving you off. You wave back before looking ahead at the rising sun. You think you're going to enjoy it too. 
+
+
+:: You think you've aligned with the wizards and arteficers {"position":"2700,500","size":"100,100"}
+You learned a lot over this adventure. Your intuition and quick thinking carried you far. 
+
+You want to take this intelligence and grow it more. 
+
+You walk over to the wizards and arteficers who cheer and set off little fireworks as you do so. 
+
+For the next few days before you leave with them for your training, you say goodbye to your friends, family and village. You will miss them and they will miss you, but you all know this is what you want. 
+
+Once the bandit camp is cleared, you begin your travels with the group of adventurers, with an arteficer already showing you the books you'll study and the gadgets you could learn to use. 
+
+"This one's hard to learn but works like a beaut when you get it right." the arteficer explains.
+
+"Maybe the kid wants to learn more spells too! Did you show off the spell books off too?"
+
+"Of course I did!"
+
+(if: $staffofbacchus is true)[You watch the vines around your forearm peak out of your sleeve. An arteficer catches sight of it and her jaw drops. 
+
+"Are those Bacchus vines?"
+
+"Bacchus vines?" you ask. 
+
+Another wizard pipes up. "A rare staff made like the god of wine and insanity's staff, otherwise known as bacchus. Powerful artefacts, and sentient too. It looks like this one likes ya."
+
+You look down as the vines curl around you some more, as if to agree. 
+
+"You better take good care of that staff kid, it'll take care of you back!"]
+
+The bard smiles at you. "Making friends already, I think you're going to enjoy our little group here," he pats your horse and it gallops forward to join the rest of them, lurching you back a bit. 
+
+You look back to see your village waving you off. You wave back before looking ahead at the rising sun. You think you're going to enjoy it too. 
